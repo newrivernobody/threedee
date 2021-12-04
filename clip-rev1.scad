@@ -46,7 +46,7 @@ module clip_insert(num_edges,fit_tolerance) {
             //peg hole
             translate([clip_arm_len-(pivot_rad+clip_rad),0,-1]) cylinder(h=peg_ht*2,r=peg_rad_max*.6,$fn=smooth);
             //peg swoop
-            translate([clip_arm_len-(pivot_rad+clip_rad),16,11]) rotate([0,270,26.4*1.5]) cylinder(h=peg_width*2,r=peg_ht/2,$fn=smooth);         
+            translate([clip_arm_len-(pivot_rad+clip_rad),16,11]) rotate([0,270,26.4*1.55]) cylinder(h=peg_width*2,r=peg_ht/2,$fn=smooth);         
         }
     }
 }
@@ -101,7 +101,7 @@ module plate(num_edges,fit_tolerance) {
     color("red") translate([0,40,0]) rotate([0,0,0]) clip_body(num_edges);
 }
 
-plate(10,.99);
+plate(8,.99);
 
 //example of meshed output
 /*
