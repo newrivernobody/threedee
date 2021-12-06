@@ -1,5 +1,5 @@
 /*
-Secret Jardin Lodge 160 Tent Parts
+Tent Accessories
 */
 
 /*
